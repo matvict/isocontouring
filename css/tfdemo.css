@@ -1,0 +1,108 @@
+h1 {
+	text-align: center;
+	text-transform: capitalize;
+	/* The display of content is enabled using jQuery so that the slideshow content won't display unless javascript is enabled. */
+}
+
+div.content {
+	/* The display of content is enabled using jQuery so that the slideshow content won't display unless javascript is enabled. */
+	display: none;
+	float: right;
+	/*width: 550px;*/
+
+}
+div.hidden { 
+visibility: hidden;
+}
+
+div.content a, div.navigation a {
+	text-decoration: none;
+	color: #777;
+}
+p{
+	text-align: justify;
+}
+*
+{
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+} 
+table.control-container
+{
+	padding-left: 3em;
+	padding-right: 3em;
+	display: inline;
+
+}
+td {
+	padding-top: 0.5em;
+
+}
+div.control
+{
+	width: 300px;
+	display: inline;
+} 
+ul.thumbs {
+	clear: both;
+	margin: 0;
+	padding: 0;	
+}
+ul.thumbs li {
+	/*float: left;*/
+	padding: 0;
+	margin: 5px 10px 5px 0;
+	list-style: none;
+}
+li {
+	display: block;
+	text-align: center;	 
+}
+img { display: inline;}
+a.thumb {
+	padding: 2px;
+	display: block;
+	border: 1px solid #ccc;
+}
+ul.thumbs li.selected  {
+
+	border: 2px solid #000;
+}
+a.thumb:focus {
+	outline: none;
+}
+ul.thumbs img {
+	border: none;
+	display: block;
+}
+div.navigation div.top {
+	margin-bottom: 12px;
+	height: 11px;
+
+	
+	
+
+}
+div.navigation div.bottom {
+	margin-top: 12px;
+}
+
+div.pagination a, div.pagination span.current, div.pagination span.ellipsis {
+	display: block;
+	float: left;
+	margin-right: 2px;
+	padding: 4px 7px 2px 7px;
+	border: 1px solid #ccc;
+}
+div.pagination a:hover {
+/*	background-color: #eee;*/
+	text-decoration: none;
+}
+
+div.canvas{
+	display:inline;
+}
