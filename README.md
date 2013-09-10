@@ -12,3 +12,7 @@ Proceedings ACM SIGGRAPH Asia 2013 (Technical Briefs), Publisher: ACM, December 
 For correct work, the demo requires HTML5 and WebGL-compatable browser. 
 Google Chrome is recommended.
 
+the demo is available at  http://matvict.github.io/isocontouring
+
+
+
